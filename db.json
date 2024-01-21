@@ -3,37 +3,228 @@
     {
       "id": 1,
       "name": "Example Company",
-      "fieldOfActivity": "Technology"
+      "fieldOfActivity": "Technology",
+      "description": "Leading technology company",
+      "vacancies": [
+        {
+          "id": 101,
+          "title": "Software Engineer",
+          "candidateLevel": "Experienced",
+          "salary": 80000,
+          "companyName": "Example Company"
+        },
+        {
+          "id": 102,
+          "title": "Data Scientist",
+          "candidateLevel": "Senior",
+          "salary": 100000,
+          "companyName": "Example Company"
+        }
+      ],
+      "contacts": "contact@examplecompany.com"
     },
     {
       "id": 2,
       "name": "Company A",
-      "fieldOfActivity": "IT"
+      "fieldOfActivity": "IT",
+      "description": "IT solutions provider",
+      "vacancies": [
+        {
+          "id": 201,
+          "title": "Backend Developer",
+          "candidateLevel": "Junior",
+          "salary": 60000,
+          "companyName": "Company A"
+        }
+      ],
+      "contacts": "contact@companya.com"
     },
     {
       "id": 3,
       "name": "Company B",
-      "fieldOfActivity": "Banking"
+      "fieldOfActivity": "Banking",
+      "description": "Banking and financial services",
+      "vacancies": [
+        {
+          "id": 301,
+          "title": "Financial Analyst",
+          "candidateLevel": "Mid-Level",
+          "salary": 90000,
+          "companyName": "Company B"
+        }
+      ],
+      "contacts": "contact@companyb.com"
     },
     {
       "id": 4,
       "name": "Company C",
-      "fieldOfActivity": "IT"
+      "fieldOfActivity": "IT",
+      "description": "Innovative IT solutions",
+      "vacancies": [
+        {
+          "id": 401,
+          "title": "Machine Learning Engineer",
+          "candidateLevel": "Senior",
+          "salary": 120000,
+          "companyName": "Company C"
+        }
+      ],
+      "contacts": "contact@companyc.com"
     },
     {
       "id": 5,
       "name": "Company D",
-      "fieldOfActivity": "Public Services"
+      "fieldOfActivity": "Public Services",
+      "description": "Public services provider",
+      "vacancies": [
+        {
+          "id": 501,
+          "title": "Public Relations Specialist",
+          "candidateLevel": "Mid-Level",
+          "salary": 75000,
+          "companyName": "Company D"
+        }
+      ],
+      "contacts": "contact@companyd.com"
     },
     {
       "id": 6,
       "name": "Company E",
-      "fieldOfActivity": "Banking"
+      "fieldOfActivity": "Banking",
+      "description": "Global banking services",
+      "vacancies": [
+        {
+          "id": 601,
+          "title": "Investment Analyst",
+          "candidateLevel": "Junior",
+          "salary": 65000,
+          "companyName": "Company E"
+        }
+      ],
+      "contacts": "contact@companye.com"
     },
     {
       "id": 7,
       "name": "Company F",
-      "fieldOfActivity": "Banking"
+      "fieldOfActivity": "Banking",
+      "description": "Financial solutions provider",
+      "vacancies": [
+        {
+          "id": 701,
+          "title": "Risk Analyst",
+          "candidateLevel": "Mid-Level",
+          "salary": 85000,
+          "companyName": "Company F"
+        }
+      ],
+      "contacts": "contact@companyf.com"
+    }
+  ],
+  "vacancies": [
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "profession": "Software Development",
+      "candidateLevel": "Experienced",
+      "salary": 80000,
+      "description": "Join our software development team to create cutting-edge applications.",
+      "company": {
+        "id": 1,
+        "name": "Example Company",
+        "fieldOfActivity": "Technology"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Data Scientist",
+      "profession": "Data Science",
+      "candidateLevel": "Senior",
+      "salary": 100000,
+      "description": "Exciting opportunity for a senior data scientist to lead innovative projects.",
+      "company": {
+        "id": 1,
+        "name": "Example Company",
+        "fieldOfActivity": "Technology"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Backend Developer",
+      "profession": "Software Development",
+      "candidateLevel": "Junior",
+      "salary": 60000,
+      "description": "Entry-level position for a backend developer to contribute to our projects.",
+      "company": {
+        "id": 2,
+        "name": "Company A",
+        "fieldOfActivity": "IT"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Financial Analyst",
+      "profession": "Finance",
+      "candidateLevel": "Mid-Level",
+      "salary": 90000,
+      "description": "Seeking a skilled financial analyst to analyze and forecast financial data.",
+      "company": {
+        "id": 3,
+        "name": "Company B",
+        "fieldOfActivity": "Banking"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Machine Learning Engineer",
+      "profession": "Machine Learning",
+      "candidateLevel": "Senior",
+      "salary": 120000,
+      "description": "Exciting opportunity for a senior machine learning engineer to work on cutting-edge projects.",
+      "company": {
+        "id": 4,
+        "name": "Company C",
+        "fieldOfActivity": "IT"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Public Relations Specialist",
+      "profession": "Public Relations",
+      "candidateLevel": "Mid-Level",
+      "salary": 75000,
+      "description": "Join our public relations team to manage communications and media relations.",
+      "company": {
+        "id": 5,
+        "name": "Company D",
+        "fieldOfActivity": "Public Services"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Investment Analyst",
+      "profession": "Finance",
+      "candidateLevel": "Junior",
+      "salary": 65000,
+      "description": "Entry-level position for an investment analyst to analyze financial markets.",
+      "company": {
+        "id": 6,
+        "name": "Company E",
+        "fieldOfActivity": "Banking"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Risk Analyst",
+      "profession": "Finance",
+      "candidateLevel": "Mid-Level",
+      "salary": 85000,
+      "description": "Seeking a risk analyst to assess and mitigate potential risks for the company.",
+      "company": {
+        "id": 7,
+        "name": "Company F",
+        "fieldOfActivity": "Banking"
+      }
     }
   ]
 }
+
