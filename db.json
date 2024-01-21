@@ -18,20 +18,5 @@
     "id": 4,
     "name": "Company C",
     "fieldOfActivity": "IT"
-  },
-  {
-    "id": 5,
-    "name": "Company D",
-    "fieldOfActivity": "Public Services"
-  },
-  {
-    "id": 6,
-    "name": "Company E",
-    "fieldOfActivity": "Banking"
-  },
-  {
-    "id": 7,
-    "name": "Company F",
-    "fieldOfActivity": "Banking"
   }
 ]
