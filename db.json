@@ -1,5 +1,5 @@
 {
-  "companies": [
+ "companies": [
     {
       "id": 1,
       "name": "Example Company",
@@ -7,18 +7,20 @@
       "description": "Leading technology company",
       "vacancies": [
         {
-          "id": 101,
+          "id": 1,
           "title": "Software Engineer",
+          "profession": "Software Development",
           "candidateLevel": "Experienced",
           "salary": 80000,
-          "companyName": "Example Company"
+          "description": "Join our software development team to create cutting-edge applications."
         },
         {
-          "id": 102,
+          "id": 2,
           "title": "Data Scientist",
+          "profession": "Data Science",
           "candidateLevel": "Senior",
           "salary": 100000,
-          "companyName": "Example Company"
+          "description": "Exciting opportunity for a senior data scientist to lead innovative projects."
         }
       ],
       "contacts": "contact@examplecompany.com"
@@ -30,11 +32,12 @@
       "description": "IT solutions provider",
       "vacancies": [
         {
-          "id": 201,
+          "id": 3,
           "title": "Backend Developer",
+          "profession": "Software Development",
           "candidateLevel": "Junior",
           "salary": 60000,
-          "companyName": "Company A"
+          "description": "Entry-level position for a backend developer to contribute to our projects."
         }
       ],
       "contacts": "contact@companya.com"
@@ -46,11 +49,12 @@
       "description": "Banking and financial services",
       "vacancies": [
         {
-          "id": 301,
+          "id": 4,
           "title": "Financial Analyst",
+          "profession": "Finance",
           "candidateLevel": "Mid-Level",
           "salary": 90000,
-          "companyName": "Company B"
+          "description": "Seeking a skilled financial analyst to analyze and forecast financial data."
         }
       ],
       "contacts": "contact@companyb.com"
@@ -62,11 +66,12 @@
       "description": "Innovative IT solutions",
       "vacancies": [
         {
-          "id": 401,
+          "id": 5,
           "title": "Machine Learning Engineer",
+          "profession": "Machine Learning",
           "candidateLevel": "Senior",
           "salary": 120000,
-          "companyName": "Company C"
+          "description": "Exciting opportunity for a senior machine learning engineer to work on cutting-edge projects."
         }
       ],
       "contacts": "contact@companyc.com"
@@ -78,11 +83,12 @@
       "description": "Public services provider",
       "vacancies": [
         {
-          "id": 501,
+          "id": 6,
           "title": "Public Relations Specialist",
+          "profession": "Public Relations",
           "candidateLevel": "Mid-Level",
           "salary": 75000,
-          "companyName": "Company D"
+          "description": "Join our public relations team to manage communications and media relations."
         }
       ],
       "contacts": "contact@companyd.com"
@@ -94,11 +100,12 @@
       "description": "Global banking services",
       "vacancies": [
         {
-          "id": 601,
+          "id": 7,
           "title": "Investment Analyst",
+          "profession": "Finance",
           "candidateLevel": "Junior",
           "salary": 65000,
-          "companyName": "Company E"
+          "description": "Entry-level position for an investment analyst to analyze financial markets."
         }
       ],
       "contacts": "contact@companye.com"
@@ -110,11 +117,12 @@
       "description": "Financial solutions provider",
       "vacancies": [
         {
-          "id": 701,
+          "id": 8,
           "title": "Risk Analyst",
+          "profession": "Finance",
           "candidateLevel": "Mid-Level",
           "salary": 85000,
-          "companyName": "Company F"
+          "description": "Seeking a risk analyst to assess and mitigate potential risks for the company."
         }
       ],
       "contacts": "contact@companyf.com"
