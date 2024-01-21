@@ -1,5 +1,5 @@
 [
-  {
+  "posts": [{
     "id": 1,
     "name": "Example Company",
     "fieldOfActivity": "Technology"
@@ -18,5 +18,5 @@
     "id": 4,
     "name": "Company C",
     "fieldOfActivity": "IT"
-  }
+  }]
 ]
